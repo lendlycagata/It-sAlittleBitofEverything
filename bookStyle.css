@@ -1,0 +1,39 @@
+/* CSS Document */
+
+<style>
+
+button {
+  padding: 10px 10px;
+  font-size: 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #CCCCCC;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #ff6600}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+body{
+
+	background-color: #CCCCCC;
+	color: black;
+	font-family:Calibri;
+	
+      
+    p{color: black;
+	font-family: Arial;
+	font-size:9px; }
+
+       }
+</style>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>BookNow</title>
+
+<link href="bookStyle.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+<form id="form1" name="form1" method="post" action="">
+  <p>Name
+    <label>
+    <input type="text"  size="25" name="textfield" /> 
+    </label> <br>
+    Address
+    <label>
+    <input type="text"  size="45"name="textfield2" />
+    </label> <br>
+    Contact Number
+    <label>
+    <input type="text"  size="11" name="textfield3" />
+    </label> <br>
+  Package
+  <label>
+  <select name="select">
+    <option>* </option>
+    <option>Package 1</option>
+    <option>Package 2</option>
+    <option>Package 3</option>
+  </select>
+  </label><br>
+  
+  <p>Extra Service</p>
+
+<button onClick="myFunction()">Scuba Diving</button>
+<script>function myFunction() {window.open("scuba.html","_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=45,left=400,width=300,height=450");}
+		</script> 
+<button onClick="noip()">Jetski</button>
+<script>function noip() {window.open("jetski.html", "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=45,left=400,width=300,height=450");}</script>
+
+<button onClick="dataflow()">Banana Boat Riding</button>
+<script>function dataflow() {window.open("banana.html", "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=45,left=400,width=300,height=450");}
+		</script>
+<button onClick="prov()">Snorkling</button>
+<script>function prov() {window.open("snorkling.html", "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=45,left=400,width=300,height=450");}
+		</script>
+<button onClick="stb()">Mountain Hiking</button>
+<script>function stb() {window.open("mount.html", "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=45,left=400,width=300,height=450");}
+		</script>
+
+
+  <p>&nbsp;</p>
+  <p>Comments:
+    <label>
+    <textarea name="textarea" cols="40" rows="15" ></textarea>
+    </label>
+  </p>
+  <p>
+    <label>
+ 
+	<button onClick="Submit()">Submit</button>
+	<script>function Submit() {window.open("mount.html", "_blank","toolbar=yes,scrollbars=yes,resizable=yes,top=45,left=400,width=300,height=450");}
+		</script>
+    </label>
+  </p>
+ 
+
+</body>
+
+
+</html>
